@@ -149,9 +149,12 @@
   <ItemGroup>
     <ClCompile Include="ClassesAndObjects.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="twitter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
+    <ClInclude Include="status.h" />
+    <ClInclude Include="twitter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
